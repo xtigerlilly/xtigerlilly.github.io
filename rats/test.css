@@ -109,6 +109,12 @@ border-right: 1px solid #000;
 
 /* Tables --------------------------*/
 
+/* main background */
+.col-md-9 {
+background: rgba(200, 100, 200, 0.5);
+border: 0px solid #000;
+}
+
 /* Buttons */
 /*bookmark, save, update page buttons*/
 input[type="button"], input[type="submit"], input[type="submit"]:hover {
@@ -183,6 +189,8 @@ border: 0px solid #000;
 background: none;
 }
 
+
+
 .alert-danger {
 color: #000000;
 background: rgba(0, 255, 0, 0.21);
@@ -196,9 +204,9 @@ border: 1px solid #000;
 }
 
 .breadcrumb {
-background:  rgba(0, 100, 200, 0.21);
+background:  rgba(200, 100, 200, 0.21);
 font-size: 13px;
-border: 1px solid #000;
+border: 0px solid #000;
 }
  
 .breadcrumb>.active {
@@ -208,10 +216,5 @@ color: #000;
 h1 small, h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 font-family: "Carter One";
 color: #000;
-}
- 
-.col-md-9 {
-background: rgba(200, 100, 200, 0.5);
-border: 0px solid #000;
 }
 

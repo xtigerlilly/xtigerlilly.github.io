@@ -1,9 +1,6 @@
 body {background: url("https://i.kym-cdn.com/photos/images/newsfeed/002/422/232/02b.gif") fixed;background-repeat: repeat;background-size: 200px 200px;color: #000;}
 
-.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
-color: #000;
-}
-
+/* ?????? */
 h1, h3 , .sidebar h3 {
 font-family: Arial !important;
 text-align: left;
@@ -12,7 +9,6 @@ border-bottom: 1px solid #000;
 }
 
 /* Links */
- 
 .table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
 color: #abc123;
 }
@@ -24,6 +20,10 @@ color: #aaaaaa;
 }
 
 /* Change bar at top of page --------------------------*/ 
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+color: #000;
+}
+
 /* messages, logout, etc... */
 .topbar {
 background: rgba(200, 192, 23, 0.7);
@@ -53,6 +53,11 @@ font-family: Arial !important;
 text-align: left;
 color: #000;
 border-bottom: 1px solid #000;
+}
+.col-md-3 .panel {
+background: rgba(169, 255, 10, 0.5);
+border: 1px solid #000;
+box-shadow: none;    
 }
 
 

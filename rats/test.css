@@ -1,14 +1,25 @@
 body {background: url("https://media.tenor.com/DW2PFCBuH9AAAAAM/gag-reflex-disgusted.gif") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
 
-/* Buttons */
-input[type="button"], input[type="submit"], input[type="submit"]:hover {
-background: rgba(69, 69, 69, 0.7);
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
 color: #000;
-border: 1px solid #000;
+}
+
+h1, h3 , .sidebar h3 {
+font-family: Arial !important;
+text-align: left;
+color: #000;
+border-bottom: 1px solid #000;
+}
+
+/* Buttons */
+/*bookmark, save, update page buttons*/
+input[type="button"], input[type="submit"], input[type="submit"]:hover {
+background: rgba(255, 69, 69, 0.7);
+color: #000;
+border: 0px solid #000;
 text-shadow: none;
 font-weight: bold;
 font-size: 14px;
-border-radius: 5px;
 }
 
 /* Change bar at top of page */ 

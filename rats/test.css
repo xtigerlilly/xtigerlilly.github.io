@@ -1,4 +1,4 @@
-body {background: url("https://i1.sndcdn.com/artworks-000608255212-vdkkxw-t500x500.jpg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
+body {background: url("https://media.tenor.com/DW2PFCBuH9AAAAAM/gag-reflex-disgusted.gif") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
 
 /* Change bar at top of page */ 
 /* messages, logout, etc... */
@@ -8,7 +8,16 @@ border: 0px solid #000;
 }
  
  /* Sidebar at right*/
- /* energy, achievements, etc.*/
+/* energy, achievements, etc.*/
+.sidebar {
+background: rgba(20, 35, 105, 0.7);
+border: 0px solid #000;
+border-bottom: 0px solid #000;
+border-left: 0px solid #000;
+color: #000;
+}
+ /* Sidebar at right*/
+ /* layers behind the other one */
 .main {
 background: rgba(93, 188, 210, 0.7);
 border: 1px solid #000;
@@ -23,11 +32,7 @@ border-bottom: 0px solid #000;
 color: #000;
 }
 
-/* Sidebar */
-.sidebar {
-background: rgba(20, 35, 105, 0.7);
-border: 0px solid #000;
-border-bottom: 1px solid #000;
-border-left: 1px solid #000;
-color: #000;
+.badge {
+background: rgba(255, 255, 255, 0.21);
+border: 1px solid #000;
 }

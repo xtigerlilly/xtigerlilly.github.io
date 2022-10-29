@@ -44,7 +44,7 @@ border: 1px solid #000;
 box-shadow: none;
 }
 
-/* Navigation bar at the top */
+/* Navigation bar at the top --------------------------*/
 /* Den, crossroads, etc.. */
 .navbar {
 background: rgba(155, 55, 255, 0.7);
@@ -56,9 +56,54 @@ color: #000;
 color: #000;
 }
  
+/* Hover over buttons */
 .navbar-default .navbar-nav li a:hover {
 color: #000;
 background: #eae9ee;
 border-left: 1px solid #000;
 border-right: 1px solid #000;
 } 
+
+/* Tables */
+ 
+#lion_image {
+border-radius: 25px;
+overflow: hidden;
+border: 1px solid #000;
+}
+ 
+.table, .item {
+border: 1px solid #000;
+background: rgba(255, 0, 0, 0.7);
+border-collapse: separate;
+}
+
+.table .right, .table .right_odd {
+background: none;
+border: 0px solid #000;
+}
+
+div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
+border: 0px solid #000;
+background: rgba(0, 255, 0, 0.7);
+color: #000;
+}
+
+.cave-grid, div .left, .mound-grid {
+border: 1px solid #000;
+background: #d8d8d8;
+color: #000;
+}
+
+.table .left {
+border: 1px solid #000;
+background: rgba(0, 0, 255, 0.7);
+color: #000;
+}
+
+.inner-table .right {
+background: rgba(20, 200, 100, 0.7);
+border: 1px solid #000;
+border-left: none;
+}
+

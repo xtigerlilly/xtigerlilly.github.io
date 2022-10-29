@@ -1,11 +1,23 @@
 body {background: url("https://i.kym-cdn.com/photos/images/newsfeed/002/422/232/02b.gif") fixed;background-repeat: repeat;background-size: 200px 200px;color: #000;}
 
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+color: #000;
+}
+
+h1, h3 , .sidebar h3 {
+font-family: Arial !important;
+text-align: left;
+color: #000;
+border-bottom: 1px solid #000;
+}
+
 /* Links */
  
 .table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
-color: #222222;
+color: #abc123;
 }
  
+ /* link color for like king baddie*/
 .table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
 border-bottom: 0px solid #000000;
 color: #aaaaaa;

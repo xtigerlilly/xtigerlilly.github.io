@@ -64,12 +64,15 @@ color: #000;
 border-bottom: 1px solid #000;
 }
 
+/* color for progress bar and stats */
+/*
 .progress-bar {
 background: #c5c5c5;
 }
+*/
  
 .progress {
-background: #f7f7f7;
+background: #123abc;
 border: 1px solid #000;
 }
 
@@ -160,5 +163,54 @@ color: #000;
 background: rgba(0, 0, 0, 0.7);
 border: 0px solid #000;
 border-left: none;
+}
+
+
+/* Chat --------------------------*/
+ 
+.chat_light, .chat_dark {
+background: rgba(255, 0, 0, 0.21);
+font-size: 11px;
+color: #000;
+}
+
+.chatContainer {
+border: 1px solid #000;
+}
+ 
+.userstolen {
+background: none;
+}
+
+.alert-danger {
+color: #000000;
+background: rgba(0, 255, 0, 0.21);
+border: 1px solid #000;
+}
+
+.alert-success {
+color: #000;
+background: rgba(0, 0, 255, 0.21);
+border: 1px solid #000;
+}
+
+.breadcrumb {
+background:  rgba(0, 100, 200, 0.21);
+font-size: 13px;
+border: 1px solid #000;
+}
+ 
+.breadcrumb>.active {
+color: #000;
+}
+ 
+h1 small, h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "Carter One";
+color: #000;
+}
+ 
+.col-md-9 {
+background: none;
+border: 0px solid #000;
 }
 

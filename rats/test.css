@@ -1,11 +1,10 @@
 body {background: url("https://i1.sndcdn.com/artworks-000608255212-vdkkxw-t500x500.jpg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
 
-/* Topbar */
- 
+/* Change bar at top of page */ 
 .topbar {
 background: rgba(200, 192, 23, 0.7);
-border: 1px solid #000;
-border-bottom-left-radius: 10px;
+border: 0px solid #000;
+border-bottom-left-radius: 20px;
 border-bottom-right-radius: 10px;
 }
  
@@ -13,4 +12,10 @@ border-bottom-right-radius: 10px;
 background: rgba(93, 188, 210, 0.7);
 border: 1px solid #000;
 box-shadow: none;
+}
+
+.navbar {
+background: rgba(155, 55, 255, 0.7);
+border-bottom: 1px solid #000;
+color: #000;
 }

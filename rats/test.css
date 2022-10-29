@@ -1,21 +1,33 @@
 body {background: url("https://i1.sndcdn.com/artworks-000608255212-vdkkxw-t500x500.jpg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
 
 /* Change bar at top of page */ 
+/* messages, logout, etc... */
 .topbar {
 background: rgba(200, 192, 23, 0.7);
 border: 0px solid #000;
-border-bottom-left-radius: 20px;
-border-bottom-right-radius: 10px;
 }
  
+ /* Sidebar at right*/
+ /* energy, achievements, etc.*/
 .main {
 background: rgba(93, 188, 210, 0.7);
 border: 1px solid #000;
 box-shadow: none;
 }
 
+/* Navigation bar at the top */
+/* Den, crossroads, etc.. */
 .navbar {
 background: rgba(155, 55, 255, 0.7);
+border-bottom: 0px solid #000;
+color: #000;
+}
+
+/* Sidebar */
+.sidebar {
+background: rgba(20, 35, 105, 0.7);
+border: 0px solid #000;
 border-bottom: 1px solid #000;
+border-left: 1px solid #000;
 color: #000;
 }

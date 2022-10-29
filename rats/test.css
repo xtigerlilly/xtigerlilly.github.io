@@ -1,7 +1,7 @@
-body {background: url("https://static.wikia.nocookie.net/ratboygenius/images/7/74/Ratboy.png/revision/latest?cb=20150616190106") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
+body {background: url("https://i1.sndcdn.com/artworks-000608255212-vdkkxw-t500x500.jpg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
 
-.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
-color: #000;
+.welcomeback, .red, .bottomlinks li a:hover, .bottomlinks li a {
+color: #111;
 }
 
 h1, h3 , .sidebar h3 {

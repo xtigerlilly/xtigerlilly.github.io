@@ -1,7 +1,7 @@
 body {background: url("https://i1.sndcdn.com/artworks-000608255212-vdkkxw-t500x500.jpg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
 
-.welcomeback, .red, .bottomlinks li a:hover, .bottomlinks li a {
-color: #111;
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+color: #000;
 }
 
 h1, h3 , .sidebar h3 {

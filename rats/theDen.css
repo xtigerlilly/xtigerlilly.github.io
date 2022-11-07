@@ -2,7 +2,7 @@ body {background: url("https://i.redd.it/3uw3507v0ey91.jpg") fixed;background-re
 
  /* Overall background */
 .main {
-background: rgba(91, 80, 122, 0.1);
+background: rgba(91, 80, 122, 1);
 border: 0px solid #000;
 /*box-shadow: 12px 12px 2px 1px rgba(29, 58, 73, .3);*/
 }

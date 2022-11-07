@@ -2,7 +2,7 @@ body {background: url("https://i.redd.it/3uw3507v0ey91.jpg") fixed;background-re
 
  /* Overall background */
 .main {
-background: rgba(91, 80, 122, 0.75);
+background: rgba(91, 80, 122, 0.1);
 border: 0px solid #000;
 /*box-shadow: 12px 12px 2px 1px rgba(29, 58, 73, .3);*/
 }
@@ -49,7 +49,7 @@ border-bottom: 1px solid #FFF;
 .col-md-3 .panel {
 background: rgba(158, 173, 200, 1);
 border: 0px solid #000;
-box-shadow: 12px 12px 2px 1px rgba(66, 84, 118, .5);    
+box-shadow: 8px 8px 2px 1px rgba(66, 84, 118, .7);    
 }
 
 /* link for sidebar stuff and chat room? */
@@ -82,7 +82,7 @@ border: 0px solid #000;
 /* Navigation bar at the top --------------------------*/
 /* Den, crossroads, etc.. */
 .navbar {
-background: rgba(185, 226, 141, 1);
+background: rgba(137, 155, 189, 1);
 border-bottom: 0px solid #000;
 color: #000;
 }
@@ -104,7 +104,7 @@ border-right: 1px solid #000;
 
 /* main background */
 .col-md-9 {
-background: rgba(91, 97, 138, 0.75);
+background: rgba(91, 97, 138, 0.1);
 border: 0px solid #000;
 }
 
@@ -117,7 +117,7 @@ color: #FFEE99;
 /* Buttons */
 /*bookmark, save, update page buttons*/
 input[type="button"], input[type="submit"], input[type="submit"]:hover {
-background: rgba(255, 69, 69, 0.7);
+background: rgba(255, 238, 153, 1);
 color: #000;
 border: 0px solid #000;
 text-shadow: none;
@@ -133,19 +133,19 @@ border: 0px solid #000;
 
 .alert-danger {
 color: #000000;
-background: rgba(0, 255, 0, 0.21);
-border: 1px solid #000;
+background: rgba(255, 117, 16, 0.8);
+border: 0px solid #000;
 }
 
 .alert-success {
 color: #000;
-background: rgba(0, 0, 255, 0.21);
-border: 1px solid #000;
+background: rgba(185, 226, 141, 0.8);
+border: 0px solid #000;
 }
 
 /* navigation bar: home / den */
 .breadcrumb {
-background:  rgba(200, 100, 200, 0.21);
+background:  rgba(91, 80, 122, 0.21);
 font-size: 13px;
 border: 0px solid #000;
 }
@@ -161,7 +161,7 @@ color: #000;
  /*background of content (like behind lion image)*/
 .table, .item {
 border: 0px solid #000;
-background: rgba(255, 0, 0, 0.7);
+background: rgba(255, 238, 153, 1);
 border-collapse: separate;
 }
 
@@ -187,7 +187,7 @@ color: #000;
 /* title like "dreamboat of ladies king baddie"*/
 .table .left {
 border: 0px solid #000;
-background: rgba(0, 0, 255, 0.7);
+background: rgba(137, 155, 189, 1);
 color: #000;
 }
 

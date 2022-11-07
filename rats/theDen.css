@@ -2,9 +2,9 @@ body {background: url("https://i.pinimg.com/originals/10/e1/a3/10e1a3615e04bfd6c
 
  /* Overall background */
 .main {
-background: rgba(93, 188, 210, 0.7);
-border: 1px solid #000;
-box-shadow: none;
+background: rgba(55, 113, 142, 0.7);
+border: 0px solid #000;
+box-shadow: 12px 12px 2px 1px rgba(29, 58, 73, .3);
 }
 
 

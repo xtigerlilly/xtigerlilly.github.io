@@ -174,15 +174,17 @@ border: 0px solid #000;
 /* background for stuff like "current password"*/
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
 border: 0px solid #000;
-background: rgba(0, 255, 0, 0.7);
+background: rgba(194, 173, 175, 1);
 color: #000;
+border-radius: 0px;
 }
 
 /* stuff behind icons like dens*/
 .cave-grid, div .left, .mound-grid {
 border: 0px solid #000;
-background: #abcdef;
+background: #EDE1D8;
 color: #000;
+border-radius: 0px;
 }
 
 /* title like "dreamboat of ladies king baddie"*/
@@ -194,9 +196,10 @@ color: #000;
 
 /* background for content like value for stats, value for territory*/
 .inner-table .right {
-background: rgba(0, 0, 0, 0.7);
+background: rgba(237, 225, 216, 1);
 border: 0px solid #000;
 border-left: none;
+border-radius: 0px;
 }
 
 

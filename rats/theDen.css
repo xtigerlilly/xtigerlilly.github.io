@@ -30,7 +30,6 @@ border: 0px solid #000;
 /* energy, achievements, etc.*/
 .sidebar {
 /*background: rgba(37, 78, 112, 0.7);*/
-border: 0px solid #000;
 /*border-bottom: 0px solid #000;*/
 /*border-left: 0px solid #000;*/
 border: 0px solid #000;
@@ -41,13 +40,13 @@ color: #000;
 h1, h3 , .sidebar h3 {
 font-family: Arial !important;
 text-align: left;
-color: #FFF;
-border-bottom: 1px solid #FFF;
+color: #FFFFFF;
+border-bottom: 1px solid #FFFFFF;
 }
 
 /* Background for stuff like hunger stats, achievement progress bar*/
 .col-md-3 .panel {
-background: rgba(158, 173, 200, 1);
+background: rgba(204, 188, 179, 1);
 border: 0px solid #000;
 box-shadow: 8px 8px 2px 1px rgba(66, 84, 118, .7);    
 }
@@ -82,7 +81,7 @@ border: 0px solid #000;
 /* Navigation bar at the top --------------------------*/
 /* Den, crossroads, etc.. */
 .navbar {
-background: rgba(137, 155, 189, 1);
+background: rgba(194, 173, 175, 1);
 border-bottom: 0px solid #000;
 color: #000;
 }
@@ -117,12 +116,13 @@ color: #FFEE99;
 /* Buttons */
 /*bookmark, save, update page buttons*/
 input[type="button"], input[type="submit"], input[type="submit"]:hover {
-background: rgba(255, 238, 153, 1);
+background: rgba(237, 225, 216, 1);
 color: #000;
 border: 0px solid #000;
 text-shadow: none;
 font-weight: bold;
 font-size: 14px;
+border-radius: 0px;
 }
  
 #lion_image {
@@ -145,9 +145,10 @@ border: 0px solid #000;
 
 /* navigation bar: home / den */
 .breadcrumb {
-background:  rgba(91, 80, 122, 0.21);
+background:  rgba(204, 188, 179, 1);
 font-size: 13px;
 border: 0px solid #000;
+border-radius: 0px;
 }
 .breadcrumb>.active {
 color: #000;

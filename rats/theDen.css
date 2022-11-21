@@ -81,7 +81,7 @@ border: 0px solid #000;
 /* Navigation bar at the top --------------------------*/
 /* Den, crossroads, etc.. */
 .navbar {
-background: rgba(194, 173, 175, 1);
+background: rgba(242, 210, 187, 1);
 border-bottom: 0px solid #000;
 color: #000;
 }
@@ -103,7 +103,7 @@ border-right: 1px solid #000;
 
 /* main background */
 .col-md-9 {
-background: rgba(91, 97, 138, 0.1);
+background: rgba(204, 188, 179, 0);
 border: 0px solid #000;
 }
 
@@ -162,7 +162,7 @@ color: #000;
  /*background of content (like behind lion image)*/
 .table, .item {
 border: 0px solid #000;
-background: rgba(255, 238, 153, 1);
+background: rgba(204, 188, 179, 1);
 border-collapse: separate;
 }
 
@@ -174,7 +174,7 @@ border: 0px solid #000;
 /* background for stuff like "current password"*/
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
 border: 0px solid #000;
-background: rgba(194, 173, 175, 1);
+background: rgba(123, 92, 81, 1);
 color: #000;
 border-radius: 0px;
 }

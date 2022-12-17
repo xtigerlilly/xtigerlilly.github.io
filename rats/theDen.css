@@ -3,7 +3,7 @@ body {background: url("https://previews.123rf.com/images/artmanata/artmanata1908
  /* Overall background */
 .main {
 /*background: rgba(106, 103, 101, 1);*/
-background: url("https://www.statnews.com/wp-content/uploads/2019/04/AdobeStock_44203634.jpeg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;position: fixed;
+background: url("https://www.statnews.com/wp-content/uploads/2019/04/AdobeStock_44203634.jpeg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;
 border: 0px solid #000;
 /*box-shadow: 12px 12px 2px 1px rgba(29, 58, 73, .3);*/
 }

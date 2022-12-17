@@ -1,4 +1,4 @@
-body {background: url("https://64.media.tumblr.com/4f9089433f3f754bcbb4762ba74c1d11/aa504049a9e3e170-d9/s540x810/94c90d03f8632c0456dce0be5d1a1616989af582.pnj") fixed;background-repeat: repeat;color: #000;}
+body {background: url("https://i.pinimg.com/736x/c9/b4/a0/c9b4a0e6364f6c4ed527ae74708c5084.jpg") fixed;background-repeat: repeat;color: #000;}
 
  /* Overall background */
 .main {
@@ -9,25 +9,25 @@ border: 0px solid #000;
 }
 
 
-/* Change bar at top of page --------------------------*/ 
+/* Change bar at top of page --------------------------*/
 .welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
 color: #000;
 }
 
 /* messages, logout, etc... */
 .topbar {
-background: rgba(123, 92, 81, 1);
+background: rgba(99,107,108, 1);
 border: 0px solid #000;
 box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* idk what this does?????*/
 .badge {
-background: rgba(100, 100, 100, 0.21);
+background: rgba(100, 100, 100, 0);
 border: 0px solid #000;
 }
- 
- 
+
+
  /* Sidebar at right--------------------------*/
 /* energy, achievements, etc.*/
 .sidebar {
@@ -41,22 +41,23 @@ color: #000;
 /* Sidebar text? for headers*/
 h1, h3 , .sidebar h3 {
 font-family: Arial !important;
+font-weight: bolder;
 text-align: left;
-color: #FFFFFF;
-border-bottom: 1px solid #FFFFFF;
+color: #000;
+/*border-bottom: 1px solid #000;*/
 }
 
 /* Background for stuff like hunger stats, achievement progress bar*/
 .col-md-3 .panel {
-background: rgba(204, 188, 179, 1);
+background: rgba(211,185,161, 1);
 border: 0px solid #000;
 border-radius: 0px;
-box-shadow: 6px 6px 3px 1px rgba(0, 0, 0, .2);    
+box-shadow: 6px 6px 3px 1px rgba(0, 0, 0, .2);
 }
 
 /* link for sidebar stuff and chat room? */
 .table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
-color: #B9E28D;
+color: rgba(255,220,208, 1);
 }
 
 /* ?????? */
@@ -73,7 +74,7 @@ border-bottom: 0px solid #000;
 background: #c5c5c5;
 }
 */
- 
+
  /* background for progress bars*/
 .progress {
 background: #FFF;
@@ -84,7 +85,7 @@ border: 0px solid #000;
 /* Navigation bar at the top --------------------------*/
 /* Den, crossroads, etc.. */
 .navbar {
-background: rgba(242, 210, 187, 1);
+background: rgba(99,107,108, 1);
 border-bottom: 0px solid #000;
 color: #000;
 box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -93,34 +94,34 @@ box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
 .navbar-default .navbar-nav > li > a {
 color: #000;
 }
- 
+
 /* Hover over buttons */
 .navbar-default .navbar-nav li a:hover {
 color: #000;
-background: #eae9ee;
+background: rgba(255,220,208, 1);
 border-left: 0px solid #000;
 border-right: 0px solid #000;
-} 
+}
 
 
 /* Tables --------------------------*/
 
 /* main background */
 .col-md-9 {
-background: rgba(204, 188, 179, 0);
+background: rgba(154,129,120, 0);
 border: 0px solid #000;
 }
 
  /* link color for like king baddie*/
 .table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
 border-bottom: 0px solid #000000;
-color: #FFEE99;
+color: rgba(255,220,208, 1);
 }
 
 /* Buttons */
 /*bookmark, save, update page buttons*/
 input[type="button"], input[type="submit"], input[type="submit"]:hover {
-background: rgba(237, 225, 216, 1);
+background: rgba(195,148,132, 1);
 color: #000;
 border: 0px solid #000;
 text-shadow: none;
@@ -128,7 +129,7 @@ font-weight: bold;
 font-size: 14px;
 border-radius: 0px;
 }
- 
+
 #lion_image {
 border-radius: 0px;
 overflow: hidden;
@@ -136,14 +137,14 @@ border: 0px solid #000;
 }
 
 .alert-danger {
-color: #000000;
-background: rgba(255, 117, 16, 0.8);
+color: #000;
+/*background: rgba(255, 117, 16, 0.8);*/
 border: 0px solid #000;
 }
 
 .alert-success {
 color: #000;
-background: rgba(185, 226, 141, 0.8);
+/*background: rgba(185, 226, 141, 0.8);*/
 border: 0px solid #000;
 }
 
@@ -157,17 +158,17 @@ border-radius: 0px;
 .breadcrumb>.active {
 color: #000;
 }
- 
+
 h1 small, h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 font-family: "Carter One";
 font-weight: bolder;
 color: #000;
 }
- 
+
  /*background of content (like behind lion image)*/
 .table, .item {
 border: 0px solid #000;
-background: rgba(204, 188, 179, 1);
+background: rgba(211,185,161, 1);
 border-collapse: separate;
 }
 
@@ -179,7 +180,7 @@ border: 0px solid #000;
 /* background for stuff like "current password"*/
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
 border: 0px solid #000;
-background: rgba(123, 92, 81, 1);
+background: rgba(154,129,120, 1);
 color: #000;
 border-radius: 0px;
 }
@@ -187,7 +188,7 @@ border-radius: 0px;
 /* stuff behind icons like dens*/
 .cave-grid, div .left, .mound-grid {
 border: 0px solid #000;
-background: #EDE1D8;
+background: rgba(195,148,132, 1);
 color: #000;
 border-radius: 0px;
 }
@@ -195,13 +196,14 @@ border-radius: 0px;
 /* title like "dreamboat of ladies king baddie"*/
 .table .left {
 border: 0px solid #000;
-background: rgba(0, 155, 189, 1);
+background: rgba(99,107,108, 1);
 color: #000;
+border-radius: 0px;
 }
 
 /* background for content like value for stats, value for territory*/
 .inner-table .right {
-background: rgba(237, 225, 216, 1);
+background: rgba(195,148,132, 1);
 border: 0px solid #000;
 border-left: none;
 border-radius: 0px;
@@ -209,7 +211,7 @@ border-radius: 0px;
 
 
 /* Chat --------------------------*/
- 
+
 .chat_light, .chat_dark {
 background: rgba(255, 0, 0, 0.21);
 font-size: 11px;
@@ -218,9 +220,11 @@ color: #000;
 
 .chatContainer {
 border: 0px solid #000;
+border-radius: 0px;
 }
- 
+
 .userstolen {
 background: none;
 }
+
 

@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 body {
 background: url("https://64.media.tumblr.com/4f9089433f3f754bcbb4762ba74c1d11/aa504049a9e3e170-d9/s540x810/94c90d03f8632c0456dce0be5d1a1616989af582.pnj") fixed;background-repeat: repeat;color: #000;
 }
 
-.disable-scroll {  
-     overflow-y: hidden;  
-     touch-action: pan-x; 
+h1 {
+	color: #fefefe;
+	font-size: 86px;
+	text-align: center !important;
+	/*letter-spacing: .15em;*/
+	text-shadow: 2px 2px #db65a1;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 /* lioden logo */

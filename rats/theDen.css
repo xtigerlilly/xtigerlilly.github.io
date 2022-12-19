@@ -1,14 +1,17 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
+html, body {height: 100%; overflow: hidden}
 
 body {
 background: url("https://64.media.tumblr.com/4f9089433f3f754bcbb4762ba74c1d11/aa504049a9e3e170-d9/s540x810/94c90d03f8632c0456dce0be5d1a1616989af582.pnj") fixed;
+	-webkit-overflow-scrolling: touch;
 background-repeat: repeat;
 color: #000;
-/*position: absolute;*/
-/*height:100%;*/
--webkit-overflow-scrolling: touch;
-/*overflow-x: auto;
-overflow-y: scroll;*/
+position: fixed;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+overflow-x: auto;
+overflow-y: scroll;
 }
 
 /* lioden logo */

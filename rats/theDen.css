@@ -6,8 +6,8 @@ background-repeat: repeat;
 color: #000;
 position: absolute;
 height:100%;
-/*-webkit-overflow-scrolling: touch;*/
-overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+/*overflow-x: auto;*/
 overflow-y: scroll;
 }
 

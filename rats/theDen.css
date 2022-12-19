@@ -8,7 +8,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
  /* Overall background */
 .main {
 /*background: rgba(106, 103, 101, 1);*/
-background: url("https://www.statnews.com/wp-content/uploads/2019/04/AdobeStock_44203634.jpeg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;background-attachment: fixed;overflow: hidden;
+background: url("https://www.statnews.com/wp-content/uploads/2019/04/AdobeStock_44203634.jpeg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;background-attachment: fixed;
 border: 0px solid #000;
 /*box-shadow: 12px 12px 2px 1px rgba(29, 58, 73, .3);*/
 }

@@ -57,7 +57,7 @@ color: #000;
 }
 
 /* Sidebar text? for headers*/
-h1, h3 , .sidebar h3 {
+h3 , .sidebar h3 {
 font-family: Arial !important;
 font-weight: bolder;
 text-align: left;
@@ -79,7 +79,7 @@ color: rgba(255,220,208, 1);
 }
 
 /* ?????? */
-h1, h3 , .sidebar h3 {
+h3 , .sidebar h3 {
 font-family: Arial !important;
 text-align: left;
 color: #000;

@@ -5,11 +5,13 @@ background: url("https://64.media.tumblr.com/4f9089433f3f754bcbb4762ba74c1d11/aa
 }
 
 h1 {
-	color: #fefefe;
-	font-size: 86px;
+	color: #FFDCD0;
+	font-size: 60px;
 	text-align: center !important;
 	/*letter-spacing: .15em;*/
-	text-shadow: 2px 2px #db65a1;
+	text-shadow: -1px 1px 0 #636B6C,
+				 1px 1px 0 #636B6C,
+				 1px -1px 0 #636B6C;
 	font-family: 'Gloria Hallelujah', cursive;
 }
 

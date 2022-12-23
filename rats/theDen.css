@@ -261,10 +261,10 @@ background: none;
 }
 
 .s-chat-message__pinned {
-	background: #9A8178;
+	background: #9A8178 !important;
 	color: black;
 	border: 0px solid #fefefe;
-	border-radius: 0px;
+	border-radius: 0px !important;
 }
 
 .s-chat-message_timestamp {
@@ -284,7 +284,7 @@ div#modalClaimList {
 }
 
 .mb-0 {
-	background: #AACCDD;
+	background: #AACCDD !important;
 	border: 0px solid #fefefe;
 	border-radius: 0px;
 }
@@ -293,6 +293,8 @@ div#chatMessageContainer {
 	border: 0px solid #fefefe;
 	border-radius: 0px;
 	color: black;
+	box-sizing: border-box;
+    	padding: 10px;
 }
 
 button#label_currentChannel {

@@ -234,30 +234,36 @@ border-radius: 0px;
 /* Chat --------------------------*/
 
 .chat_light, .chat_dark {
-background: rgba(255, 0, 0, 0.21);
-font-size: 11px;
-color: #000;
+	background: rgba(255, 0, 0, 0.21);
+	font-size: 11px;
+	color: #000;
 }
 
 .chatContainer {
-border: 0px solid #000;
-background: rgba(255, 0, 0, 1);
+	border: 0px solid #000;
+	background: rgba(255, 0, 0, 1);
+	box-sizing: border-box;
+    	padding: 10px;
 }
  
 .userstolen {
-background: none;
+	background: none;
 }
 
 .s-chat-message:nth-child(even) {
 	background: #C39484;
 	border: 0px solid #fefefe;
 	border-radius: 0px;
+	box-sizing: border-box;
+    	padding: 10px;
 }
 
 .s-chat-message:nth-child(odd) {
 	background: #D3B9A1;
 	border: 0px solid #fefefe;
 	border-radius: 0px;
+	box-sizing: border-box;
+    	padding: 10px;
 }
 
 .s-chat-message__pinned {
@@ -272,21 +278,23 @@ background: none;
 }
 
 .s-chat-message_claim {
-	background: #333333;
+	background: #636B6C;
 	border: 0px solid #fefefe;
 	border-radius: 0px;
+	color: white;
 }
 
 div#modalClaimList {
-	background: #D3B9A1;
+	background: #C39484;
 	border: 0px solid #fefefe;
 	border-radius: 0px;
 }
 
 .mb-0 {
-	background: #AACCDD !important;
+	background: #636B6C !important;
 	border: 0px solid #fefefe;
 	border-radius: 0px;
+	color: #FFDCD0;
 }
 
 div#chatMessageContainer {
@@ -301,5 +309,4 @@ button#label_currentChannel {
 	border: 0px solid #fefefe;
 	border-radius: 0px;
 	background: #C39484;
-	color: #000;
 }

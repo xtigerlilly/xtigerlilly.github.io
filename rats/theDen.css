@@ -277,6 +277,12 @@ div#modalClaimList {
 	border-radius: 0px;
 }
 
+.mb-0 {
+	background: #AACCDD;
+	border: 0px solid #fefefe;
+	border-radius: 0px;
+}
+
 div#chatMessageContainer {
 	border: 0px solid #fefefe;
 	border-radius: 0px;

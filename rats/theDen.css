@@ -255,7 +255,7 @@ background: none;
 }
 
 .s-chat-message:nth-child(odd) {
-	background: #636B6C !important;
+	background: #D3B9A1 !important;
 	border: 0px solid #fefefe !important;
 	border-radius: 0px;
 }
@@ -272,7 +272,9 @@ background: none;
 }
 
 div#modalClaimList {
-	background: rgba(155, 0, 0, 1);
+	background: #D3B9A1;
+	border: 0px solid #fefefe;
+	border-radius: 0px;
 }
 
 div#chatMessageContainer {
@@ -281,7 +283,8 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel {
-	border: 1px solid #fefefe !important;
-	background: #e98295 !important;
+	border: 0px solid #fefefe !important;
+	border-radius: 0px;
+	background: #C39484 !important;
 	color: #fefefe !important;
 }

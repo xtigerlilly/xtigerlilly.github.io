@@ -271,6 +271,12 @@ background: none;
 	color: black !important;
 }
 
+.s-chat-message_claim {
+	background: #333333;
+	border: 0px solid #fefefe;
+	border-radius: 0px;
+}
+
 div#modalClaimList {
 	background: #D3B9A1;
 	border: 0px solid #fefefe;

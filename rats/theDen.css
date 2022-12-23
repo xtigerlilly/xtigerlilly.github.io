@@ -249,21 +249,21 @@ background: none;
 }
 
 .s-chat-message:nth-child(even) {
-	background: #9A8178 !important;
-	border: 0px solid #fefefe !important;
+	background: #C39484;
+	border: 0px solid #fefefe;
 	border-radius: 0px;
 }
 
 .s-chat-message:nth-child(odd) {
-	background: #D3B9A1 !important;
-	border: 0px solid #fefefe !important;
+	background: #D3B9A1;
+	border: 0px solid #fefefe;
 	border-radius: 0px;
 }
 
 .s-chat-message__pinned {
-	background: #e98295 !important;
-	color: #fefefe !important;
-	border: 0px solid #fefefe !important;
+	background: #9A8178;
+	color: black;
+	border: 0px solid #fefefe;
 	border-radius: 0px;
 }
 
@@ -278,13 +278,14 @@ div#modalClaimList {
 }
 
 div#chatMessageContainer {
-	border: 1px solid #fefefe !important;
-	color: black !important;
+	border: 0px solid #fefefe;
+	border-radius: 0px;
+	color: black;
 }
 
 button#label_currentChannel {
-	border: 0px solid #fefefe !important;
+	border: 0px solid #fefefe;
 	border-radius: 0px;
-	background: #C39484 !important;
-	color: #fefefe !important;
+	background: #C39484;
+	color: #000;
 }

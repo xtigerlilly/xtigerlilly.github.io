@@ -249,7 +249,7 @@ background: none;
 }
 
 .s-chat-message:nth-child(even) {
-	background: #fefefe !important;
+	background: #AAAABB !important;
 	border: 1px solid #fefefe !important;
 }
 

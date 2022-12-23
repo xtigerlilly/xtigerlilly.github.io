@@ -254,16 +254,12 @@ border-radius: 0px;
 	background: #C39484;
 	border: 0px solid #fefefe;
 	border-radius: 0px;
-	box-sizing: border-box;
-    	padding: 10px;
 }
 
 .s-chat-message:nth-child(odd) {
 	background: #D3B9A1;
 	border: 0px solid #fefefe;
 	border-radius: 0px;
-	box-sizing: border-box;
-    	padding: 10px;
 }
 
 .s-chat-message__pinned {
@@ -307,6 +303,6 @@ div#chatMessageContainer {
 
 button#label_currentChannel {
 	border: 0px solid #fefefe;
-	border-radius: 0px;
-	background: #C39484;
+	border-radius: 0px !important;
+	background: #C39484 !important;
 }

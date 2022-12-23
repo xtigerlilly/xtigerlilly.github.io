@@ -294,8 +294,8 @@ div#modalClaimList {
 }
 
 .chatMessageContainer {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
 }
 
 div#chatMessageContainer {
@@ -303,11 +303,11 @@ div#chatMessageContainer {
 	border-radius: 0px;
 	color: black;
 	box-sizing: border-box;
-    	padding: 10px;
+    	padding: 10px !important;
 }
 
 button#label_currentChannel {
-	border: 0px solid #fefefe;
+	border: 0px solid #fefefe !important;
 	border-radius: 0px !important;
 	background: #C39484 !important;
 }

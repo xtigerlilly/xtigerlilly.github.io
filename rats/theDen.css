@@ -293,6 +293,11 @@ div#modalClaimList {
 	color: #FFDCD0;
 }
 
+.chatMessageContainer {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 div#chatMessageContainer {
 	border: 0px solid #fefefe;
 	border-radius: 0px;

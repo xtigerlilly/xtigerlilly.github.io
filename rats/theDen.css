@@ -241,11 +241,41 @@ color: #000;
 
 .chatContainer {
 border: 0px solid #000;
-border-radius: 0px;
+background: rgba(255, 0, 0, 1);
 }
-
+ 
 .userstolen {
 background: none;
 }
 
+.s-chat-message:nth-child(even) {
+	background: #fefefe !important;
+	border: 1px solid #fefefe !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #fefefe !important;
+	border: 1px solid #fefefe !important;
+}
+
+.s-chat-message__pinned {
+	background: #e98295 !important;
+	color: #fefefe !important;
+	border: 1px solid #fefefe !important;
+}
+
+.s-chat-message_timestamp {
+	color: black !important;
+}
+
+div#chatMessageContainer {
+	border: 1px solid #fefefe !important;
+	color: black !important;
+}
+
+button#label_currentChannel {
+	border: 1px solid #fefefe !important;
+	background: #e98295 !important;
+	color: #fefefe !important;
+}
 

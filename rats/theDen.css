@@ -260,12 +260,16 @@ border-radius: 0px;
 	background: #C39484;
 	border: 0px solid #000;
 	border-radius: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 .s-chat-message:nth-child(odd) {
 	background: #D3B9A1;
 	border: 0px solid #000;
 	border-radius: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 .s-chat-message__pinned {

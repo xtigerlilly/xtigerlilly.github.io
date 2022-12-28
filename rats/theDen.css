@@ -25,7 +25,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 .main {
 	background: url("https://www.statnews.com/wp-content/uploads/2019/04/AdobeStock_44203634.jpeg") fixed;
 	background-repeat: repeat;
-	background-size: contain;
+	background-size: 1500px 800px;
 	/*object-fit: none;*/
 	color: #000;
 	border: 0px solid #000;
@@ -262,16 +262,16 @@ border-radius: 0px;
 	background: #C39484;
 	border: 0px solid #000;
 	border-radius: 0px;
-	padding-left: 10px !important;
-	padding-right: 10px !important;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
 }
 
 .s-chat-message:nth-child(odd) {
 	background: #D3B9A1;
 	border: 0px solid #000;
 	border-radius: 0px;
-	padding-left: 10px !important;
-	padding-right: 10px !important;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
 }
 
 .s-chat-message__pinned {
@@ -283,7 +283,7 @@ border-radius: 0px;
 
 .s-chat-message_timestamp {
 	color: black !important;
-	padding-left: 10px !important;
+	padding-left: 5px !important;
 }
 
 .s-chat-message_claim {

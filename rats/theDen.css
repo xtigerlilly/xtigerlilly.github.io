@@ -158,15 +158,15 @@ border: 0px solid #000;
 }
 
 .alert-danger {
-color: #000;
-/*background: rgba(255, 117, 16, 0.8);*/
-border: 0px solid #000;
+	color: #000;
+	background: rgba(227, 111, 111, 1);
+	border: 0px solid #000;
 }
 
 .alert-success {
-color: #000;
-/*background: rgba(185, 226, 141, 0.8);*/
-border: 0px solid #000;
+	color: #000;
+	background: rgba(158, 194, 151, 1);
+	border: 0px solid #000;
 }
 
 /* navigation bar: home / den */
@@ -233,17 +233,19 @@ border-radius: 0px;
 
 /* Chat --------------------------*/
 
+/*
 .chat_light, .chat_dark {
 	background: rgba(255, 0, 0, 0.21);
 	font-size: 11px;
 	color: #000;
 }
+*/
 
 .chatContainer {
 	border: 0px solid #000;
-	background: rgba(255, 0, 0, 1);
+	/* background: rgba(255, 0, 0, 1);
 	box-sizing: border-box;
-    	padding: 10px;
+    	padding: 10px; */
 }
  
 .userstolen {
@@ -252,20 +254,20 @@ border-radius: 0px;
 
 .s-chat-message:nth-child(even) {
 	background: #C39484;
-	border: 0px solid #fefefe;
+	border: 0px solid #000;
 	border-radius: 0px;
 }
 
 .s-chat-message:nth-child(odd) {
 	background: #D3B9A1;
-	border: 0px solid #fefefe;
+	border: 0px solid #000;
 	border-radius: 0px;
 }
 
 .s-chat-message__pinned {
 	background: #9A8178 !important;
 	color: black;
-	border: 0px solid #fefefe;
+	border: 0px solid #000;
 	border-radius: 0px !important;
 }
 
@@ -275,40 +277,39 @@ border-radius: 0px;
 
 .s-chat-message_claim {
 	background: #636B6C;
-	border: 0px solid #fefefe;
+	border: 0px solid #000;
 	border-radius: 0px;
 	color: white;
 }
 
 div#modalClaimList {
 	background: #C39484;
-	border: 0px solid #fefefe;
+	border: 0px solid #000;
 	border-radius: 0px;
 }
 
 .mb-0 {
 	background: #636B6C !important;
-	border: 0px solid #fefefe;
+	border: 0px solid #000;
 	border-radius: 0px;
 	color: #FFDCD0;
 }
 
+/*
 .chatMessageContainer {
-	padding-left: 5px !important;
-	padding-right: 5px !important;
-	padding: inherit !important;
 }
+*/
 
 div#chatMessageContainer {
-	border: 0px solid #fefefe;
+	border: 0px solid #000;
 	border-radius: 0px;
 	color: black;
-	box-sizing: border-box;
-    	padding: 10px !important;
+	/*box-sizing: border-box;
+    	padding: 10px !important;*/
 }
 
 button#label_currentChannel {
-	border: 0px solid #fefefe !important;
+	border: 0px solid #000 !important;
 	border-radius: 0px !important;
 	background: #C39484 !important;
 }

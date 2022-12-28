@@ -159,14 +159,14 @@ border: 0px solid #000;
 
 .alert-danger {
 	color: #000;
-	background: rgba(227, 111, 111, 1);
+	background: #FF8E8E;
 	border: 0px solid #000;
 	border-radius: 0px !important;
 }
 
 .alert-success {
 	color: #000;
-	background: rgba(121, 179, 110, 1);
+	background: #98D58B;
 	border: 0px solid #000;
 	border-radius: 0px !important;
 }

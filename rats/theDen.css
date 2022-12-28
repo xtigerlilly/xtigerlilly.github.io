@@ -161,12 +161,14 @@ border: 0px solid #000;
 	color: #000;
 	background: rgba(227, 111, 111, 1);
 	border: 0px solid #000;
+	border-radius: 0px;
 }
 
 .alert-success {
 	color: #000;
 	background: rgba(158, 194, 151, 1);
 	border: 0px solid #000;
+	border-radius: 0px;
 }
 
 /* navigation bar: home / den */

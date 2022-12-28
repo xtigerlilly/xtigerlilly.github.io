@@ -23,10 +23,12 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
  /* Overall background */
 .main {
-/*background: rgba(106, 103, 101, 1);*/
-background: url("https://www.statnews.com/wp-content/uploads/2019/04/AdobeStock_44203634.jpeg") fixed;background-repeat: no-repeat;background-size: cover;color: #000;
-border: 0px solid #000;
-/*box-shadow: 12px 12px 2px 1px rgba(29, 58, 73, .3);*/
+	background: url("https://www.statnews.com/wp-content/uploads/2019/04/AdobeStock_44203634.jpeg") fixed;
+	background-repeat: repeat;
+	/*background-size: cover;*/
+	object-fit: none;
+	color: #000;
+	border: 0px solid #000;
 }
 
 
@@ -92,14 +94,14 @@ border-bottom: 0px solid #000;
 /* color for progress bar and stats */
 /*
 .progress-bar {
-background: #c5c5c5;
+	background: #c5c5c5;
 }
 */
 
  /* background for progress bars*/
 .progress {
-background: #FFF;
-border: 0px solid #000;
+	background: #FFF;
+	border: 0px solid #000;
 }
 
 
@@ -152,22 +154,22 @@ border-radius: 0px;
 }
 
 #lion_image {
-border-radius: 0px;
-overflow: hidden;
-border: 0px solid #000;
+	border-radius: 0px;
+	overflow: hidden;
+	border: 0px solid #000;
 }
 
 .alert-danger {
 	color: #000;
 	background: #FF8E8E;
-	border: 2px solid #636B6C;
+	border: 1px solid #636B6C;
 	border-radius: 0px !important;
 }
 
 .alert-success {
 	color: #000;
 	background: #98D58B;
-	border: 2px solid #636B6C;
+	border: 1px solid #636B6C;
 	border-radius: 0px !important;
 }
 
@@ -260,16 +262,16 @@ border-radius: 0px;
 	background: #C39484;
 	border: 0px solid #000;
 	border-radius: 0px;
-	padding-left: 3px;
-	padding-right: 3px;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
 }
 
 .s-chat-message:nth-child(odd) {
 	background: #D3B9A1;
 	border: 0px solid #000;
 	border-radius: 0px;
-	padding-left: 3px;
-	padding-right: 3px;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
 }
 
 .s-chat-message__pinned {

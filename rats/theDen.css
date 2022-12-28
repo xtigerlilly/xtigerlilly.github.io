@@ -289,7 +289,7 @@ border-radius: 0px;
 	background: #636B6C;
 	border: 0px solid #000;
 	border-radius: 0px;
-	color: white !important;
+	color: white;
 }
 
 .s-chat-message_mod {
@@ -307,7 +307,7 @@ div#modalClaimList {
 	background: #636B6C !important;
 	border: 0px solid #000;
 	border-radius: 0px;
-	color: #FFDCD0;
+	color: #FFDCD0 !important;
 }
 
 /*

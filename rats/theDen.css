@@ -4,8 +4,8 @@ body {
 background: url("https://64.media.tumblr.com/4f9089433f3f754bcbb4762ba74c1d11/aa504049a9e3e170-d9/s540x810/94c90d03f8632c0456dce0be5d1a1616989af582.pnj") fixed;background-repeat: repeat;color: #000;
 }
 
-h1 {
-	color: #FFDCD0;
+h1, h3 {
+	color: #C39484;
 	font-size: 60px;
 	text-align: center !important;
 	/*letter-spacing: .15em;*/
@@ -62,13 +62,15 @@ color: #000;
 }
 
 /* Sidebar text? for headers*/
+/*
 h3 , .sidebar h3 {
 font-family: Arial !important;
 font-weight: bolder;
 text-align: left;
 color: #000;
-/*border-bottom: 1px solid #000;*/
-}
+/* border-bottom: 1px solid #000;
+}*/
+
 
 /* Background for stuff like hunger stats, achievement progress bar*/
 .col-md-3 .panel {

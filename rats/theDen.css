@@ -166,7 +166,7 @@ input[type="button"], input[type="submit"] {
 }
 
 input[type="button"], input[type="submit"]:hover {
-	background: rgba(222,100,222, 1);
+	background: rgba(0,100,222, 1);
 }
 
 #lion_image {

@@ -175,7 +175,7 @@ input[type="button"], input[type="submit"]:hover {
 */
 
 input:hover, select:focus, textarea:focus {
-	background: linear-gradient(to right,rgba(154,129,120,0.7),rgba(255,201,102,0.7),rgba(211,185,161,0.7),rgba(194,148,132,0.7),rgba(255,220,208,0.7)) !important;
+	background: linear-gradient(to right,rgba(154,129,120,1),rgba(255,201,102,1),rgba(211,185,161,1),rgba(194,148,132,1),rgba(255,220,208,1)) !important;
 	color: #000;
 	border: 0px solid #000;
 	box-shadow: none;

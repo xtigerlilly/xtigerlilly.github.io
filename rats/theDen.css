@@ -274,6 +274,10 @@ div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top,
 	padding-right: 130px;*/
 }
 
+div.cave-grid>img {
+	content: url("https://i.etsystatic.com/19730909/r/il/afd1af/3138925052/il_340x270.3138925052_357c.jpg")!important;
+}
+
 
 /* Chat --------------------------*/
 

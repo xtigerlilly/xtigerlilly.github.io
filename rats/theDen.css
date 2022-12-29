@@ -24,16 +24,13 @@ h1 {
 	/*font-size: 60px;*/
 	/*text-align: center !important;*/
 	/*letter-spacing: .15em;*/
-	/*text-shadow: -1px 1px 0 #636B6C,
-				 1px 1px 0 #636B6C,
-				 1px -1px 0 #636B6C,
-				 -1px -1px 0 #636B6C;*/
+	text-shadow: 1px 1px 0 #FFDCD0;
 	font-family: 'Gloria Hallelujah', cursive !important;
 	/*padding-bottom: 5px;*/
 }
 
 a:hover {
-	color: #f7e1e1 !important;
+	color: white;
 }
 
 

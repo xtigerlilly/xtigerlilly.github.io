@@ -32,6 +32,11 @@ h1 {
 	/*padding-bottom: 5px;*/
 }
 
+a:hover {
+	color: #f7e1e1 !important;
+}
+
+
 /* lioden logo */
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: url('https://cdn.discordapp.com/attachments/739902624224248031/1053902484424376360/weloveratsTS.png');

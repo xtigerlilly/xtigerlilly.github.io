@@ -175,11 +175,12 @@ input[type="button"], input[type="submit"]:hover {
 */
 
 input:hover, select:focus, textarea:focus {
-	background: linear-gradient(to right,rgba(255,102,102,0.7),rgba(255,201,102,0.7),rgba(255,255,102,0.7),rgba(102,178,102,0.7),rgba(102,102,255,0.7)) !important;
-	color: black !important;
-	border: none;
+	background: linear-gradient(to right,rgba(154,129,120,0.7),rgba(255,201,102,0.7),rgba(211,185,161,0.7),rgba(194,148,132,0.7),rgba(255,220,208,0.7)) !important;
+	color: #000;
+	border: 0px solid #000;
 	box-shadow: none;
-	text-shadow: none;
+	text-shadow: none !important;
+	border-radius: 0px;
 }
 
 #lion_image {

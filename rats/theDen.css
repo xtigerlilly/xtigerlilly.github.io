@@ -174,14 +174,15 @@ input[type="button"], input[type="submit"]:hover {
 }
 */
 
-input:hover, select:focus, textarea:focus {
+/* input:hover, select:focus, textarea:focus {*/
+
+input:hover, select:focus {
 	background: linear-gradient(to right,rgba(154,129,120,1),rgba(255,220,208,1)) !important;
 	color: #000;
 	border: 0px solid #000;
-	box-shadow: none;
+	/*box-shadow: none;*/
 	text-shadow: none !important;
-	border-radius: 0px;
-	font-weight: bold;
+	border-radius: 0px !important;
 }
 
 #lion_image {
@@ -266,10 +267,10 @@ div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top,
 }
 
 .mound-grid img {
-	background: url('https://i.etsystatic.com/19730909/r/il/afd1af/3138925052/il_340x270.3138925052_357c.jpg');
-	width: 0;
+	background: url("https://i.etsystatic.com/19730909/r/il/afd1af/3138925052/il_340x270.3138925052_357c.jpg");
+	/*width: 0;
 	height: 0;
-	/*padding-top: 80px;
+	padding-top: 80px;
 	padding-right: 130px;*/
 }
 

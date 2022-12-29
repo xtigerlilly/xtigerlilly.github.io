@@ -267,7 +267,7 @@ div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top,
 }
 
 .mound-grid img {
-	background: url("https://i.etsystatic.com/19730909/r/il/afd1af/3138925052/il_340x270.3138925052_357c.jpg");
+	background: url("https://i.etsystatic.com/19730909/r/il/afd1af/3138925052/il_340x270.3138925052_357c.jpg") !important;
 	/*width: 0;
 	height: 0;
 	padding-top: 80px;
@@ -275,7 +275,7 @@ div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top,
 }
 
 div.cave-grid>img {
-	content: url("https://i.etsystatic.com/19730909/r/il/afd1af/3138925052/il_340x270.3138925052_357c.jpg")!important;
+	content: url("https://upload.wikimedia.org/wikipedia/commons/d/d4/Ferdinand_van_Kessel_%28Attr%29_-_The_dance_of_rats.jpg")!important;
 }
 
 

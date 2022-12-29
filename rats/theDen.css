@@ -155,7 +155,7 @@ h3 , .sidebar h3 {
 
 /* Buttons */
 /*bookmark, save, update page buttons*/
-input[type="button"], input[type="submit"], input[type="submit"]:hover {
+input[type="button"], input[type="submit"] {
 	background: rgba(195,148,132, 1);
 	color: #000;
 	border: 0px solid #000;
@@ -163,6 +163,10 @@ input[type="button"], input[type="submit"], input[type="submit"]:hover {
 	font-weight: bold;
 	/*font-size: 14px;*/
 	border-radius: 0px;
+}
+
+input[type="button"], input[type="submit"], input[type="submit"]:hover {
+	background: rgba(222,100,222, 1);
 }
 
 #lion_image {

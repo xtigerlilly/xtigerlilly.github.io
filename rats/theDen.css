@@ -7,20 +7,20 @@ body {
 }
 
 h1 {
-	color: #D3B9A1;
+	color: #9A8178;
 	font-size: 60px;
 	text-align: center !important;
 	/*letter-spacing: .15em;*/
-	text-shadow: -1px 1px 0 #9A8178,
-				 1px 1px 0 #9A8178,
-				 1px -1px 0 #9A8178,
-				 -1px -1px 0 #9A8178;
+	text-shadow: -1px 1px 0 #FFDCD0,
+				 1px 1px 0 #FFDCD0,
+				 1px -1px 0 #FFDCD0,
+				 -1px -1px 0 #FFDCD0;
 	font-family: 'Gloria Hallelujah', cursive;
 	padding-bottom: 5px;
 }
 
 .sidebar h3 {
-	color: #C39484 !important;
+	color: #636B6C !important;
 	/*font-size: 60px;*/
 	/*text-align: center !important;*/
 	/*letter-spacing: .15em;*/

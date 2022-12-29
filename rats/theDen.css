@@ -4,7 +4,7 @@ body {
 background: url("https://64.media.tumblr.com/4f9089433f3f754bcbb4762ba74c1d11/aa504049a9e3e170-d9/s540x810/94c90d03f8632c0456dce0be5d1a1616989af582.pnj") fixed;background-repeat: repeat;color: #000;
 }
 
-h1, h3 {
+h1 {
 	color: #C39484;
 	font-size: 60px;
 	text-align: center !important;
@@ -16,6 +16,19 @@ h1, h3 {
 	padding-bottom: 5px;
 }
 
+h3, .sidebar h3 {
+	color: #C39484 !important;
+	/*font-size: 60px;*/
+	/*text-align: center !important;*/
+	/*letter-spacing: .15em;*/
+	text-shadow: -1px 1px 0 #FFDCD0,
+				 1px 1px 0 #FFDCD0,
+				 1px -1px 0 #FFDCD0,
+				 -1px -1px 0 #FFDCD0;
+	font-family: 'Gloria Hallelujah', cursive;
+	/*padding-bottom: 5px;*/
+}
+
 /* lioden logo */
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: url('https://cdn.discordapp.com/attachments/739902624224248031/1053902484424376360/weloveratsTS.png');
@@ -25,7 +38,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 .main {
 	background: url("https://www.statnews.com/wp-content/uploads/2019/04/AdobeStock_44203634.jpeg") fixed;
 	background-repeat: repeat;
-	background-size: 2500px 1800px;
+	background-size: 2000px 1300px;
 	/*object-fit: none;*/
 	color: #000;
 	border: 0px solid #000;

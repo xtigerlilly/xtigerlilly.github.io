@@ -176,10 +176,10 @@ input[type="button"], input[type="submit"]:hover {
 
 /* input:hover, select:focus, textarea:focus {*/
 
-input:hover, select:focus {
+input:hover {
 	background: linear-gradient(to right,rgba(154,129,120,1),rgba(255,220,208,1)) !important;
-	color: #000;
-	border: 0px solid #000;
+	color: #000 !important;
+	border: 0px solid #000 !important;
 	/*box-shadow: none;*/
 	text-shadow: none !important;
 	border-radius: 0px !important;

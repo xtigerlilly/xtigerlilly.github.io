@@ -104,11 +104,11 @@ h3 , .sidebar h3 {
 }
 
 /* color for progress bar and stats */
-/*
+
 .progress-bar {
-	background: #c5c5c5;
+	background: linear-gradient(to right,rgba(255,179,153,1),rgba(255,220,208,1)) !important;
 }
-*/
+
 
  /* background for progress bars*/
 .progress {

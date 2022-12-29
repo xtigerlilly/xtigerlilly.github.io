@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 body {
-background: url("https://64.media.tumblr.com/4f9089433f3f754bcbb4762ba74c1d11/aa504049a9e3e170-d9/s540x810/94c90d03f8632c0456dce0be5d1a1616989af582.pnj") fixed;background-repeat: repeat;color: #000;
+	background: url("https://64.media.tumblr.com/4f9089433f3f754bcbb4762ba74c1d11/aa504049a9e3e170-d9/s540x810/94c90d03f8632c0456dce0be5d1a1616989af582.pnj") fixed;
+	background-repeat: repeat;
+	color: #000;
 }
 
 h1 {
@@ -9,10 +11,10 @@ h1 {
 	font-size: 60px;
 	text-align: center !important;
 	/*letter-spacing: .15em;*/
-	text-shadow: -1px 1px 0 #FFDCD0,
-				 1px 1px 0 #FFDCD0,
-				 1px -1px 0 #FFDCD0,
-				 -1px -1px 0 #FFDCD0;
+	text-shadow: -1px 1px 0 #636B6C,
+				 1px 1px 0 #636B6C,
+				 1px -1px 0 #636B6C,
+				 -1px -1px 0 #636B6C;
 	font-family: 'Gloria Hallelujah', cursive;
 	padding-bottom: 5px;
 }
@@ -22,10 +24,10 @@ h1 {
 	/*font-size: 60px;*/
 	/*text-align: center !important;*/
 	/*letter-spacing: .15em;*/
-	text-shadow: -1px 1px 0 #FFDCD0,
-				 1px 1px 0 #FFDCD0,
-				 1px -1px 0 #FFDCD0,
-				 -1px -1px 0 #FFDCD0;
+	text-shadow: -1px 1px 0 #636B6C,
+				 1px 1px 0 #636B6C,
+				 1px -1px 0 #636B6C,
+				 -1px -1px 0 #636B6C;
 	font-family: 'Gloria Hallelujah', cursive !important;
 	/*padding-bottom: 5px;*/
 }
@@ -48,14 +50,14 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Change bar at top of page --------------------------*/
 .welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
-color: #000;
+	color: #000;
 }
 
 /* messages, logout, etc... */
 .topbar {
-background: rgba(99,107,108, 1);
-border: 0px solid #000;
-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	background: rgba(99,107,108, 1);
+	border: 0px solid #000;
+	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* little notification bubble next to "Messages" */

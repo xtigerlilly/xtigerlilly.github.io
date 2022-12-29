@@ -181,6 +181,7 @@ input:hover, select:focus, textarea:focus {
 	box-shadow: none;
 	text-shadow: none !important;
 	border-radius: 0px;
+	font-weight: bold;
 }
 
 #lion_image {

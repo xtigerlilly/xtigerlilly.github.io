@@ -30,7 +30,7 @@ h1 {
 }
 
 a:hover {
-	color: white;
+	color: white !important;
 }
 
 
@@ -132,7 +132,7 @@ h3 , .sidebar h3 {
 
 /* Hover over buttons */
 .navbar-default .navbar-nav li a:hover {
-	color: #000;
+	color: #000 !important;
 	background: rgba(255,220,208, 1);
 	border-left: 0px solid #000;
 	border-right: 0px solid #000;

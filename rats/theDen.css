@@ -357,13 +357,12 @@ div#modalClaimList {
 	background: #636B6C !important;
 	border: 0px solid #000;
 	border-radius: 0px;
-	color: #FFDCD0 !important;
+	color: #000 !important;
 }
 
-/*
-.chatMessageContainer {
+.close {
+	background: #FFDCD0 !important;
 }
-*/
 
 div#chatMessageContainer {
 	border: 0px solid #000;

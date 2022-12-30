@@ -86,7 +86,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Container background */
 .col-md-3 .panel {
-	background: rgba(195,148,132, 1);
+	background: rgba(211,185,161, 1);
 	border: 0px solid #000;
 	border-radius: 0px;
 	box-shadow: 6px 6px 3px 1px rgba(0, 0, 0, .2);
@@ -242,7 +242,7 @@ div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top,
 /* Container background */
 .table, .item {
 	border: 0px solid #000;
-	background: rgba(195,148,132, 1);
+	background: rgba(211,185,161, 1);
 	border-collapse: separate;
 }
 
@@ -311,7 +311,7 @@ div#chatMessageContainer {
 
 /* Odd message containers */
 .s-chat-message:nth-child(odd) {
-	background: rgba(195,148,132, 1);
+	background: rgba(211,185,161, 1);
 	border: 0px solid #000;
 	border-radius: 0px;
 	padding-left: 5px !important;

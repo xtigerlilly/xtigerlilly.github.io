@@ -99,11 +99,9 @@ h3 , .sidebar h3 {
 }
 
 /* link for sidebar stuff and chat room? */
-/*
 .table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
 	color: rgba(255,220,208, 1);
 }
-*/
 
 /* color for progress bar and stats */
 

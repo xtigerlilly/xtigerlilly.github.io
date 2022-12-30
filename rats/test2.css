@@ -134,6 +134,11 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+/* Text */
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+}
+
 /* Hover */
 .navbar-default .navbar-nav li a:hover {
 	color: #000 !important;

@@ -354,6 +354,10 @@ div.cave-grid>img {
 	background: #98D58B !important;
 }
 
+.s-chat-message .hasContext {
+	background: rgba(255,220,208, 1) !important;
+}
+
 
 div#modalClaimList {
 	background: #C39484;

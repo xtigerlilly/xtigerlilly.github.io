@@ -106,19 +106,19 @@ h3 , .sidebar h3 {
 /* color for progress bar and stats */
 
 .progress-bar-warning {
-	background: #98D58B !important;
+	background: #ecc5c0 !important;
 }
 
 .progress-bar-danger {
-	background: #FF8E8E !important;
+	background: #ffdcd0 !important;
 }
 
 .progress-bar-success {
-	background: #FFD1C2 !important;
+	background: #e5c1b1 !important;
 }
 
 .progress-bar {
-	background: #C29484;
+	background: #ffd6d0;
 }
 
 

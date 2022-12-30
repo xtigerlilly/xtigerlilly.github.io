@@ -163,11 +163,14 @@ h3 , .sidebar h3 {
 	border: 0px solid #000;
 }
 
+
  /* link color for like king baddie*/
+ /*
 .table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
 	border-bottom: 0px solid #000000;
 	color: rgba(255,220,208, 1);
 }
+*/
 
 /* Buttons */
 /*bookmark, save, update page buttons*/

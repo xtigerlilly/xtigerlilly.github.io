@@ -250,12 +250,12 @@ h1 small, h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	border-collapse: separate;
 }
 
-/*
+
 .table .right, .table .right_odd {
 	background: none;
 	border: 0px solid #000;
 }
-*/
+
 
 /* background for stuff like "current password"*/
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {

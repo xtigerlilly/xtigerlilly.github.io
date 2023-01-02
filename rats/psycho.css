@@ -288,7 +288,8 @@ div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top,
 
 /* Cave grid images */
 div.cave-grid>img {
-	/* content: url("https://cdn.discordapp.com/attachments/739902624224248031/1057914144512294953/ratdance2jpg.jpg")!important; */
+	content: url("https://images.squarespace-cdn.com/content/v1/581499b8e58c627afce6221c/1581508096896-ODPL3BKNUYDT344BXKEB/sprispin-gif.gif?format=300w")!important;
+	height: 100px;
 }
 
 

@@ -14,15 +14,14 @@ body {
 
 /* Main title text */
 h1 {
-	color: rgba(176,29,118, 1);
-	font-size: 60px;
+	color: rgba(109, 34, 99, 1);
+	font-size: 70px;
 	text-align: center !important;
 	text-shadow: -1px 1px 0 rgba(167,170,117, 1),
 				 1px 1px 0 rgba(167,170,117, 1),
 				 1px -1px 0 rgba(167,170,117, 1),
 				 -1px -1px 0 rgba(167,170,117, 1);
 	font-family: 'Pacifico', cursive;
-	padding-bottom: 5px;
 }
 
 /* Sub titles for sidebar */

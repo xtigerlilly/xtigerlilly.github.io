@@ -1,7 +1,7 @@
 /* Page background ---------------------------------------- */
 
 body {
-	background: url("https://media.istockphoto.com/id/1338130496/vector/seamless-pattern-of-birds-in-neon-colors.jpg") fixed;
+	background: url("https://media.istockphoto.com/id/1338130496/vector/seamless-pattern-of-birds-in-neon-colors.jpg?b=1&s=612x612&w=0&k=20&c=DT74rAp0Anxoiqv0az3WVrYjGAK6AH2fxqh_hv1otx4=") fixed;
 	background-repeat: repeat;
 }
 
@@ -16,10 +16,10 @@ h1 {
 	color: rgba(109, 34, 99, 1);
 	font-size: 70px;
 	text-align: center !important;
-	text-shadow: -1px 1px 0 #000,
-				 1px 1px 0 #000),
-				 1px -1px 0 #000,
-				 -1px -1px 0 #000;
+	text-shadow: -1px 1px 0 #FFF,
+				 1px 1px 0 #FFF,
+				 1px -1px 0 #FFF,
+				 -1px -1px 0 #FFF;
 	font-family: 'Pacifico', cursive;
 }
 

@@ -1,0 +1,375 @@
+/* Page background ---------------------------------------- */
+
+body {
+	background: url("https://as2.ftcdn.net/v2/jpg/04/41/17/37/1000_F_441173727_nakp5wQ5G08LVtWWHL9rF4TxYyMf4JOI.jpg") fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+/* Fonts and Text ---------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+/* Main title text */
+h1 {
+	color: rgba(221,92,94, 1);
+	font-size: 60px;
+	text-align: center !important;
+	text-shadow: -1px 1px 0 rgba(190,209,209, 1),
+				 1px 1px 0 rgba(190,209,209, 1),
+				 1px -1px 0 rgba(190,209,209, 1),
+				 -1px -1px 0 rgba(190,209,209, 1);
+	/* font-family: 'Gloria Hallelujah', cursive; */
+	/* padding-bottom: 5px; */
+}
+
+/* Sub titles for sidebar */
+.sidebar h3 {
+	color: rgba(178,47,204, 1) !important;
+	text-shadow: 1px 1px 0 rgba(190,209,209, 1);
+	/* font-family: 'Gloria Hallelujah', cursive !important; */
+}
+
+/* General text */
+h1 small, h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Carter One";
+	font-weight: bolder;
+	color: #000;
+}
+
+/* Links (besides lion name for some reason) */
+.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+	color: rgba(190,209,209, 1);
+}
+
+/* Link hover */
+a:hover {
+	color: white !important;
+}
+
+
+
+/* Login bar at top of page ---------------------------------------- */
+
+/* Lioden logo */
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://images.squarespace-cdn.com/content/v1/581499b8e58c627afce6221c/1581469398389-GJ03KT8SVGGWEK2RBV58/jellyfish.gif?format=300w');
+	height: 150px;
+	width: 120px;
+}
+
+/* Topbar text */
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+	color: #000;
+}
+
+/* Topbar: messages, logout, etc... */
+.topbar {
+	background: rgba(178,47,204, 1);
+	border: 0px solid #000;
+	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Little red notification bubble next to "Messages" */
+.badge {
+	border: 0px solid #000;
+}
+
+
+
+/* Sidebar at right ---------------------------------------- */
+
+/* Sidebar: energy, achievements, etc. */
+.sidebar {
+	border: 0px solid #000;
+	color: #000;
+}
+
+/* Container background */
+.col-md-3 .panel {
+	background: rgba(120,200,220, 1);
+	border: 0px solid #000;
+	border-radius: 0px;
+	box-shadow: 6px 6px 3px 1px rgba(0, 0, 0, .2);
+}
+
+
+
+/* Progress bars (going from top to bottom) ---------------------------------------- */
+
+/* Energy */
+.progress-bar-warning {
+	/* background: #FFA385 !important; */
+}
+
+/* Hunger */
+.progress-bar-danger {
+	/* background: #FFB399 !important; */
+}
+
+/* EXP */
+.progress-bar-success {
+	/* background: #FFC2AD !important; */
+}
+
+/* General */
+.progress-bar {
+	background: rgba(190,209,209, 1);
+}
+
+/* Progress bar background (default is white) */
+.progress {
+	background: #FFF;
+	border: 0px solid #000;
+}
+
+
+
+/* Navigation bar ---------------------------------------- */
+
+/* Den, crossroads, etc.. */
+.navbar {
+	background: rgba(178,47,204, 1);
+	border-bottom: 0px solid #000;
+	color: #000;
+	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Text */
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+}
+
+/* Hover */
+.navbar-default .navbar-nav li a:hover {
+	color: #000 !important;
+	background: rgba(190,209,209, 1);
+	border-left: 0px solid #000;
+	border-right: 0px solid #000;
+}
+
+
+
+/* Alerts ---------------------------------------- */
+
+/* "Red" alerts */
+.alert-danger {
+	color: #000;
+	background: #FF8E8E;
+	border: 1px solid rgba(178,47,204, 1);
+	border-radius: 0px !important;
+}
+
+/* "Green" alerts */
+.alert-success {
+	color: #000;
+	background: #98D58B;
+	border: 1px solid rgba(178,47,204, 1);
+	border-radius: 0px !important;
+}
+
+
+
+/* Buttons ---------------------------------------- */
+
+/* bookmark, save, update page buttons */
+input[type="button"], input[type="submit"] {
+	background: rgba(221,92,94, 1);
+	color: #000;
+	border: 0px solid #000;
+	text-shadow: none;
+	font-weight: bold;
+	border-radius: 0px;
+}
+
+/* Button hover */
+input:hover {
+	/* background: linear-gradient(to right,rgba(99,107,108,1),rgba(255,220,208,1)) !important; */
+	background: rgba(190,209,209, 1) !important;
+	color: #000 !important;
+	border: 0px solid #000 !important;
+	text-shadow: none !important;
+	border-radius: 0px !important;
+}
+
+
+
+/* Tables ---------------------------------------- */
+
+/* Den background */
+.main {
+	background: url("https://www.jellygummies.com/s/Orange-paradise-HD-W.jpg") fixed;
+	background-repeat: repeat;
+	background-size: 1080px 1920px;
+	color: #000;
+	border: 0px solid #000;
+}
+
+/* Col-1 background (transparent by default) */
+.col-md-9 {
+	background: transparent;
+	border: 0px solid #000;
+}
+
+/* Link for lion name */
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+	border-bottom: 0px solid #000;
+	color: rgba(190,209,209, 1);
+}
+
+/* King icon */
+#lion_image {
+	border-radius: 0px;
+	overflow: hidden;
+	border: 0px solid #000;
+}
+
+/* Breadcrumb: home / den */
+.breadcrumb {
+	background: transparent;
+	font-size: 15px;
+	border: 0px solid #000;
+	border-radius: 0px;
+}
+
+/* Breadcrumb text */
+.breadcrumb>.active {
+	color: #000;
+}
+
+/* Container headers */
+div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
+	border: 0px solid #000;
+	background: rgba(55,111,162, 1);
+	color: #000;
+	border-radius: 0px;
+}
+
+/* Container background */
+.table, .item {
+	border: 0px solid #000;
+	background: rgba(120,200,220, 1);
+	border-collapse: separate;
+}
+
+/* Right table: sparring (transparent by default) */
+.table .right, .table .right_odd {
+	background: transparent;
+	border: 0px solid #000;
+}
+
+/* Primary sub-containers: "level", "stats", etc. */
+.table .left {
+	border: 0px solid #000;
+	background: rgba(178,47,204, 1);
+	color: #000;
+	border-radius: 0px;
+}
+
+/* 2ndary sub-containers: level values, stat values, etc. */
+.inner-table .right {
+	background: rgba(221,92,94, 1);
+	color: #000;
+	border: 0px solid #000;
+	border-left: none;
+	border-radius: 0px;
+}
+
+/* Cave grid labels */
+.cave-grid, div .left, .mound-grid {
+	border: 0px solid #000;
+	background: rgba(221,92,94, 1);
+	color: #000;
+	border-radius: 0px;
+}
+
+/* Cave grid images */
+div.cave-grid>img {
+	/* content: url("https://cdn.discordapp.com/attachments/739902624224248031/1057914144512294953/ratdance2jpg.jpg")!important; */
+}
+
+
+
+/* Chat ---------------------------------------- */
+
+/* Button to change chat channels */
+button#label_currentChannel {
+	border: 0px solid #000 !important;
+	border-radius: 0px !important;
+	background: rgba(221,92,94, 1) !important;
+}
+
+/* Overall message containers */
+div#chatMessageContainer {
+	border: 0px solid #000;
+	border-radius: 0px;
+	color: #000;
+}
+
+/* Even message containers */
+.s-chat-message:nth-child(even) {
+	background: rgba(221,92,94, 1);
+	border: 0px solid #000;
+	border-radius: 0px;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+/* Odd message containers */
+.s-chat-message:nth-child(odd) {
+	background: rgba(120,200,220, 1);
+	border: 0px solid #000;
+	border-radius: 0px;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+/* Timestamp on messages (grey by default) */
+.s-chat-message_timestamp {
+	color: grey !important;
+	padding-left: 5px !important;
+}
+
+/* Pinned messages */
+.s-chat-message__pinned {
+	background: rgba(55,111,162, 1) !important;
+	color: #000;
+	border: 0px solid #000;
+	border-radius: 0px !important;
+}
+
+/* Mod messages (green by default) */
+.s-chat-message__mod {
+	background: #98D58B !important;
+}
+
+/* Claim box */
+.s-chat-message_claim {
+	background: rgba(178,47,204, 1);
+	border: 0px solid #000;
+	border-radius: 0px;
+	color: #000;
+}
+
+/* Claim list top bar */
+.mb-0 {
+	background: rgba(178,47,204, 1) !important;
+	border: 0px solid #000;
+	border-radius: 0px;
+	color: #000 !important;
+}
+
+/* 'X' button */
+.close {
+	color: rgba(190,209,209, 1) !important;
+}
+
+/* Claim list background */
+div#modalClaimList {
+	background: rgba(221,92,94, 1);
+	border: 0px solid #000;
+	border-radius: 0px;
+}
+

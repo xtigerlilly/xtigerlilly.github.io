@@ -1,7 +1,7 @@
 /* Page background ---------------------------------------- */
 
 body {
-	background: url("https://img.freepik.com/free-vector/hand-drawn-flat-groovy-psychedelic-pattern-design_23-2149075909.jpg?w=2000") fixed;
+	background: url("https://t4.ftcdn.net/jpg/03/32/14/13/360_F_332141366_ACNPQo0r6cRi2GtB53YOaCqCS0DTL6fL.jpg") fixed;
 	background-repeat: repeat;
 }
 
@@ -288,7 +288,7 @@ div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top,
 
 /* Cave grid images */
 div.cave-grid>img {
-	content: url("https://images.squarespace-cdn.com/content/v1/581499b8e58c627afce6221c/1581508096896-ODPL3BKNUYDT344BXKEB/sprispin-gif.gif?format=300w")!important;
+	content: url("https://images.squarespace-cdn.com/content/v1/581499b8e58c627afce6221c/1581467894223-6MO737QZFJ0QAVEFBS21/flower-1.gif?format=300w")!important;
 	height: 100px;
 }
 

@@ -287,7 +287,7 @@ div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top,
 /* Cave grid images */
 div.cave-grid>img {
 	content: url("https://images.squarespace-cdn.com/content/v1/581499b8e58c627afce6221c/1581467894223-6MO737QZFJ0QAVEFBS21/flower-1.gif")!important;
-	height: 130px;
+	height: 140px;
 }
 
 

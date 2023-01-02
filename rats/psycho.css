@@ -1,7 +1,7 @@
 /* Page background ---------------------------------------- */
 
 body {
-	background: url("https://img.freepik.com/free-vector/flat-design-psychedelic-groovy-background_23-2148873377.jpg") fixed;
+	background: url("https://img.freepik.com/free-vector/hand-drawn-flat-groovy-psychedelic-pattern-design_23-2149075909.jpg?w=2000") fixed;
 	background-repeat: repeat;
 }
 
@@ -10,6 +10,7 @@ body {
 /* Fonts and Text ---------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /* Main title text */
 h1 {
@@ -20,15 +21,15 @@ h1 {
 				 1px 1px 0 rgba(167,170,117, 1),
 				 1px -1px 0 rgba(167,170,117, 1),
 				 -1px -1px 0 rgba(167,170,117, 1);
-	/* font-family: 'Gloria Hallelujah', cursive; */
-	/* padding-bottom: 5px; */
+	font-family: 'Pacifico', cursive;
+	padding-bottom: 5px;
 }
 
 /* Sub titles for sidebar */
 .sidebar h3 {
 	color: rgba(137,54,106, 1) !important;
 	text-shadow: 1px 1px 0 rgba(167,170,117, 1);
-	/* font-family: 'Gloria Hallelujah', cursive !important; */
+	font-family: 'Pacifico', cursive !important;
 }
 
 /* General text */

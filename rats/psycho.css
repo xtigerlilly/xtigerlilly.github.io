@@ -1,7 +1,7 @@
 /* Page background ---------------------------------------- */
 
 body {
-	background: url("https://i.pinimg.com/originals/3f/9e/43/3f9e43aeaab69949c91956cb7f14935e.jpg") fixed;
+	background: url("https://img.freepik.com/free-vector/flat-design-psychedelic-groovy-background_23-2148873377.jpg") fixed;
 	background-repeat: repeat;
 }
 
@@ -201,7 +201,7 @@ input:hover {
 .main {
 	background: url("https://www.jellygummies.com/s/Orange-paradise-HD-W.jpg") fixed;
 	background-repeat: repeat;
-	background-size: 1500px 1920px;
+	background-size: 1300px 1920px;
 	background-position: top left;
 	color: #FFF;
 	border: 0px solid #000;
